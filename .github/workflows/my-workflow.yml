@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: hello-action
-        uses: ./.github/actions/hello-world
+      - name: "hello-action"
+        uses: ./.github/actions/hello-worlda
+          with:
+            first-greeting: "Learning Lab User"
