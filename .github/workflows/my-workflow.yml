@@ -9,5 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: "hello-action"
         uses: ./.github/actions/hello-worlda
-          with:
-            first-greeting: "Learning Lab User"
+        with:
+          first-greeting: "Learning Lab User"
+          second-greeting: "Foo"
+          third-greeting: "Bar"
